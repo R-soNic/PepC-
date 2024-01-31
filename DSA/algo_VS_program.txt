@@ -1,0 +1,46 @@
+Algorithm
+----------- 
+* Design phase
+* Natural Language
+* Person having domain knowledge
+* written and anlyse
+* hardware and software independent
+
+Program
+-----------
+* Implementation phase
+* Any programming Language
+* Programmer
+* Develop and test
+* Hasrdware and software
+-----------------------------------------------------------------------------
+Analysis of Algorithm
+
+priori
+-------
+-> done before run algorithm on specific system
+-> hardware independent
+-> approximate Analysis
+-> depends upon asymptotic notation
+
+posterior
+---------
+-> done after running algorithm on specific system
+-> Depends upon hardware, programming Language and processor
+-> Actual statics of algorithm
+-> Generally in industry, they don't do posterior analysis
+-----------------------------------------------------------------------------
+Asymptotic notation
+-------------------
+Asymptotic notation are mathematical tools that allow you to analyze an 
+algoritm with big O, theta , 
+
+
+
+-----------------------------------------------------------------------------
+Time Complexity
+---------------
+Time Complexity of an algoritm is not the measure of actual time taken for the
+program to be executed, rather it is the number of times each statement of the
+logic gets executed to produce the requred output.
+
