@@ -21,7 +21,7 @@ int main(){
     cout<<"Enter the elemnt in array: "<<endl;
     int arr[n];
     for(int i=0;i<n;i++){
-        cin>>arr[i];
+        cin>>arr[i]; 
     }
     int k;
     cout<<"Enter the no you want to find: "<<endl;
