@@ -1,0 +1,27 @@
+class Solution{
+public:
+     void wordBreakHelper(const string& s, int start, const unordered_set<string>& wordSet, string& current, vector<string>& result) {
+        if (start == s.length()) {
+            result.push_back(current);
+            return;
+        }
+        for (int end = start + 1; end <= s.length(); ++end) {
+            string word = s.substr(start, end - start);
+            if (wordSet.find(word) != wordSet.end()) {
+                string previous = current.empty() ? word : (current + " " + word);
+                wordBreakHelper(s, end, wordSet, previous, result);
+            }
+        }
+    }
+    vector<string> wordBreak(int n, vector<string>& dict, string s)
+    {
+        // code here
+        unordered_set<string> wordSet(dict.begin(), dict.end());
+        vector<string> result;
+        string current;
+
+        wordBreakHelper(s, 0, wordSet, current, result);
+
+        return result;
+    }
+};

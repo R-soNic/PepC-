@@ -1,0 +1,60 @@
+-Logical relationship existing between individual elements of data.
+-Way of organizing all data items
+-it doesn't consider not only the elements stored but also their relationship
+    to each other
+- mathematical
+
+classsification:-
+    -Linear ds
+        -array
+        -stack
+        -queue
+        -list
+    Non Linear 
+        -Tree
+        -Graph
+-------------------------------------------------------------------------
+LINEAR DATA STRUCTURE
+    -> If a data structure is organising the data in sequential order, then that
+    data structure is known as linear data structure.
+NON LINEAR DATA STRUCTURE
+    -> if a data structure is organizing the data in random order, then that data
+    structure is called as non linear data structure.
+--------------------------------------------------------------------------
+Stack 
+- LIFO principle (Last in first out)
+- both insertion and deletion take at end of stack
+- push() to insert elements in stack, pop() to remove an elements from stack
+- overflow condition when stack is full, underflow condition when stack is empty.
+
+for push operation in stack
+-> check if the stack is full or not.
+
+    operation:
+        -> push()
+        -> pop()
+        -> topElement()
+        -> isEmpty()
+        -> size()
+---------------------------------------------------------------------
+Queue:
+- FIFO principle (First in first out)
+- the elm inserted from one end called rear and deleted from the other end 
+    is called as front.
+-> front == begin , rear == end
+
+    operation:
+        -> enqueue()
+        -> dequeue()
+        -> display()
+
+Types of queue:
+    -> Simple queue
+    -> Circular queue
+    -> Prority queue
+    -> Double ended queue
+------------------------------------------------------------------------
+
+Singly linked list 
+    -> Basic type of linked list
+     
